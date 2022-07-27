@@ -1,0 +1,413 @@
+/* * {
+    font-size: 104%;
+} */
+
+.mid {
+    height: 95vh;
+    width: 100% ;
+}
+
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.options-right {
+    position: fixed;
+    height: 95vh;
+    width: 70%;
+    left: 30%;
+}
+
+.options-right-open {
+    position: fixed;
+    height: 95vh;
+    width: 97%;
+    left: 3%;
+}
+
+.options-left {
+    /* transition: 0.5s; */
+    position: fixed;
+    height: 95vh;
+    width: 30%;
+    /* width: 20%; */
+    float: left;
+    padding: 10px 10px 10px 0px;
+}
+
+.options-left-closed {
+    /* transition: 0.5s; */
+    position: fixed;
+    height: 95vh;
+    width:30%;
+    float: left;
+    padding: 10px 10px 10px 0px;
+    right: 97%;
+}
+
+.optionsLeft-2 {
+    height: 95vh;
+    width: 10%;
+    float: left;
+    padding: 10px 10px 10px 0px;
+}
+
+
+.dropdown-t {
+    /* height: 20%;  */
+    /* height: 60%; */
+    height: 100%; 
+    width: 100%;
+    background-color: white; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+
+.dropdown-b {
+    width:100%;
+    background-color: white;
+    /* height: calc(80% - 65px); */
+    height: calc(70% - 25px);
+    border-radius: 10px;
+    margin-top:20px;
+    margin-bottom: 10px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    padding: 10px;
+}
+
+
+.left-container {
+    background-color: #C4C4C4;
+    /* height: 100%;  */
+    height: 60%; 
+    width: 100%; 
+    padding: 10px 0px 10px 10px;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.dropdown-container {
+    /* height: 100%;  */
+    height: 100%; 
+    width: 90%;
+    float: left;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    vertical-align: center;
+}
+
+.buttonstyle {
+    /* margin: 5px; */
+    /* font-size: larger;
+    font-weight: bold;
+    text-align: center; */
+    width: 5%;
+    height: 100%;
+    background-color: #C4C4C4; 
+    border-color: #C4C4C4; 
+    float: right;
+}
+
+.m-m {
+    width: 100%;
+    height: 100%;
+    margin-top: 3.5%;
+}
+
+.w-full {
+    width: 100%;
+    height: 20%;
+    margin: 3px;
+}
+
+
+.gen-button {
+    width: 100%;
+    height: 40px;
+}
+
+
+.h-full {
+    height: 100%;
+}
+
+.f-h {
+    height: 100%;
+    /* background-color:white; */
+    /* border-top-left-radius : 0;
+    border-top-right-radius : 0;
+    border-bottom-right-radius : 10px;
+    border-bottom-left-radius : 10px; */
+    /* border-radius: 10px; */
+}
+
+.fl-r {
+    float: right;
+    width: 20%;
+}
+
+.graph-size {
+    height: 60vh;
+    width: 100%;
+}
+
+
+.f-h-scroll-div {
+    /* height: calc(65vh + 20px); */
+    height: calc(85vh + 20px);
+    /* max-height: calc(65vh + 20px); */
+    max-height: calc(85vh + 20px);
+    background-color:white;
+    overflow-y:auto;
+    overflow-x:hidden;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+.cattabs {
+    border-radius: 10px 10px 0px 0px;
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: white;
+    height: 100%;
+    color: rgb(78, 78, 78);
+}
+
+.r {
+    border-radius: 10px;
+}
+
+.tab-panel {
+    padding: 10px;
+    /* height: 80%; */
+    /* max-height: 80%; */
+    /* max-height: 80%; */
+}
+
+.yearDiv {
+    color: black;
+    text-align: center;
+    align-content: center;    
+}
+
+.yearHtmlDiv {
+    height: 100%;
+    width:100%; 
+    background-color:white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.test {
+    background-color: blue;
+}
+
+
+.main-div {
+    background-color: #A7A7A7;
+    color: white;
+    height: 100%;
+}
+
+.top {
+    max-height: 5vh;
+}
+
+.dropdownstyling {
+    color: black;
+    border-width: 2px;
+    border-color: blue;
+    padding: 10px;
+}
+
+
+/*skys styles*/
+
+.panel-heading {
+    /* font-size: 300%; */
+    font-size: 3em;
+    font-weight: 600;
+    color: black;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.dropdown-label {
+    font-weight: 700;
+    font-size: 1.9em;
+    color: black;
+    margin-left: 5px;
+}
+
+#datasource-dropdown {
+    /* font-size: 1.72em; */
+    color: black;
+    white-space: nowrap;
+    margin-bottom: 3%;
+}
+
+#admin-dropdown {
+    /* font-size: 1.72em; */
+    color: black;
+    margin-bottom: 3%;
+}
+
+#theme-radio, #y-axis-scale {
+    font-size: 1.71em;
+    margin-bottom: 3%;
+}
+
+#theme-radio > label, #y-axis-scale > label {
+    margin-left: 3%;
+}
+
+#location-dropdown {
+    /* font-size: x-large; */
+    margin-bottom: 3%;
+}
+
+#species-dropdown {
+    /* font-size: x-large; */
+    margin-bottom: 3%;
+}
+
+#start-year-dropdown ,#end-year-dropdown,
+#graph-type-dropdown, #x-axis-dropdown, #y-axis-dropdown,
+#graph-color-by-dropdown, #choromap-country-dropdown, #choromap-species-dropdown,
+#choromap-color-by-dropdown {
+    /* font-size: 1.72em; */
+    color: black;
+    white-space: nowrap;
+    margin-bottom: 3%;
+}
+
+.country_dropdown {
+    color: black;
+    width: 95%;
+    display: table;
+    margin: 0px 10px 10px 10px;
+}
+
+/* The following way of indicating font size prevents
+text inside dropdown to overflow upwards */
+/* Define font size for current dropdown selection */
+.Select-value-label {
+    font-size: 1.72em;
+}
+/* Define font size for items in dropdown menu */
+.VirtualizedSelectOption {
+    font-size: 1.65em;
+}
+
+#graph-label, #hierarchy-graph-label {
+    font-size: 1.8em;
+    font-weight: 600;
+    color: black;
+    padding-left: 25%;
+}
+
+.graph-styling {
+    border-radius: 10px;
+    /* height: 100%;
+    background-color: pink; */
+}
+
+.chrolo-map-dropdowns {
+    color: black;
+    width: 90%;
+    display: table;
+    margin: 0 auto;
+}
+
+.export:after {
+    content: " as CSV";
+}
+
+.metadata-btn-container {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.metadata-button {
+    border-radius: 6px;
+    width: 80%;
+    padding: 5px;
+    background-color: #E5E5E5;
+    border: none;
+    transition-duration: 0.4s;
+    margin-bottom: 10px;
+}
+
+.metadata-button:hover {
+    background-color: #A7A7A7;
+    /* color: white; */
+}
+
+.metadata-button:focus {
+    background-color: #A7A7A7;
+    /* color: white; */
+}
+
+/* To maintain font from datatable presentation: markdown */
+.dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner *, .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner *:after, .dash-table-container .dash-spreadsheet-container .dash-spreadsheet-inner *:before {
+    box-sizing: inherit;
+    font-family: monospace;
+}
+
+#json-download {
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #F7931D;
+    border-radius: 6px;
+    outline: none;
+}
+
+#json-download:hover {
+    background-color: #de831a;
+}
+
+/* To keep the dropdown menu items centered */
+/* .Select-control {
+    position: unset;
+} */
+
+/* scroll bar */
+    /* width */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+}
+    /* Track */
+::-webkit-scrollbar-track {
+    display: none;
+    /* width: 10px; */
+}
+   
+    /* Handle */
+::-webkit-scrollbar-thumb {
+    background: darkgrey;
+    border-radius: 10px;
+}
+  
+    /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: grey;
+    border-radius: 10px; 
+}
